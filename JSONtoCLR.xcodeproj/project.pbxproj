@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4C58E26220CAC122002C3ADF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C58E26120CAC122002C3ADF /* main.swift */; };
+		4C58E26920CAC14D002C3ADF /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C58E26820CAC14D002C3ADF /* ConsoleIO.swift */; };
+		4C58E26B20CAC19A002C3ADF /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C58E26A20CAC19A002C3ADF /* Converter.swift */; };
+		4CD900AF20CAEDA700158D1F /* NSColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD900AE20CAEDA700158D1F /* NSColor+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		4C58E25E20CAC122002C3ADF /* JSONtoCLR */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JSONtoCLR; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C58E26120CAC122002C3ADF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4C58E26820CAC14D002C3ADF /* ConsoleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
+		4C58E26A20CAC19A002C3ADF /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		4CD900AE20CAEDA700158D1F /* NSColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSColor+Hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				4C58E26120CAC122002C3ADF /* main.swift */,
+				4C58E26820CAC14D002C3ADF /* ConsoleIO.swift */,
+				4C58E26A20CAC19A002C3ADF /* Converter.swift */,
+				4CD900AE20CAEDA700158D1F /* NSColor+Hex.swift */,
 			);
 			path = JSONtoCLR;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD900AF20CAEDA700158D1F /* NSColor+Hex.swift in Sources */,
 				4C58E26220CAC122002C3ADF /* main.swift in Sources */,
+				4C58E26B20CAC19A002C3ADF /* Converter.swift in Sources */,
+				4C58E26920CAC14D002C3ADF /* ConsoleIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
